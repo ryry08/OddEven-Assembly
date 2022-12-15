@@ -13,7 +13,7 @@ start:
 	HLT		; halt the program
 
 evend:
-	MOV A, even 	; gives register A the odd variable
+	MOV A, even 	; gives register A the even variable
 	MOV B, 232
 	CALL printeven
 
