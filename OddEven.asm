@@ -6,7 +6,7 @@ odd:  DB "odd"	; odd variable
       DB 0 	; string terminator
 
 start:
-	MOV A,4 	; gives A the value 5
+	MOV A,4 	; gives A the value 4
 	AND A,1		; gives register A value 1 and chacks z flag
 	JZ evend	; jump if zero to even
 	JNZ oddd	; jump if not 0 to odd
